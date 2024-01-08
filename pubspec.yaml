@@ -1,0 +1,65 @@
+name: shahadmartapplication
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+dependencies:
+  flutter:
+ 
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_localizations:
+    sdk: flutter
+  google_nav_bar: ^5.0.6
+  flutter_svg: ^2.0.8
+  video_player: ^2.7.2
+  # flutter_gif: ^0.0.4
+  flutter_rating_bar: ^4.0.1
+  flutter_image_slideshow: ^0.1.6
+  cached_network_image: ^3.3.0
+  font_awesome_flutter: ^10.6.0
+  responsive_framework: ^1.1.1
+  filter_list: ^1.0.2
+  flutter_screenutil: ^5.9.0
+  dio: ^5.3.3
+  flutter_riverpod: ^2.4.5
+  provider: ^6.1.1
+  hooks_riverpod: ^2.4.6
+  device_id_info: ^0.0.4
+  url_launcher: ^6.2.1
+  whatsapp_unilink: ^2.1.0
+  form_validator: ^2.1.1
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  otp: ^3.1.4
+  flutter_otp_text_field: ^1.1.1
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+
+    - family: NotoNastaliqUrdu-VariableFont_wght
+      fonts:
+        - asset: assets/fonts/NotoNastaliqUrdu-VariableFont_wght.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true
