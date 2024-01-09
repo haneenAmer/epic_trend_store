@@ -1,22 +1,45 @@
-# Your E-Commerce Flutter Application
-
-Welcome to your E-Commerce Flutter application! This app is designed to provide a seamless and enjoyable shopping experience for users interested in buying a variety of products.
+# Epic Trend eCommerce
 
 ## Overview
 
-This Flutter application leverages the power of Dart and Flutter to create a cross-platform e-commerce solution. It includes features such as product browsing, cart management, user authentication, and more.
+Welcome to Epic Trend eCommerce, a cutting-edge Flutter application that provides a seamless and secure shopping experience. With a robust authentication logic, this app ensures the protection of user accounts, making it a reliable platform for all your online shopping needs.
 
-## Features
+## Folder Structure
 
-- **Product Catalog:** Browse a wide range of products with detailed information.
-- **User Authentication:** Create an account, log in, and manage your user profile.
-- **Shopping Cart:** Easily add and remove items from your shopping cart.
-- **Order Management:** View and manage your orders seamlessly.
+```
+epic-trend-ecommerce/
+│
+├── lib/
+│   ├── main.dart
+│   ├── screens/
+│   │   ├── home_screen.dart
+│   │   ├── product_details_screen.dart
+│   │   └── user_profile_screen.dart
+│   │
+│   ├── providers/
+│   │   ├── auth_provider.dart
+│   │   ├── product_provider.dart
+│   │   └── order_provider.dart
+│   │
+│   └── widgets/
+│       ├── product_item.dart
+│       └── shopping_cart.dart
+│
+├── test/
+│   ├── auth_test.dart
+│   └── product_test.dart
+│
+├── pubspec.yaml
+└── README.md
+```
+
+## Strong Authentication Logic
+
+Epic Trend eCommerce prioritizes the security of user accounts with a strong and efficient authentication logic. The `AuthProvider` in the `providers` directory handles authentication, ensuring a safe and reliable environment for users.
 
 
-## Dependencies
+## License
 
-This project uses various Flutter packages to enhance functionality. You can find the complete list in the `pubspec.yaml` file. To install dependencies, run:
+This project is licensed under the [MIT License](LICENSE).
 
-```bash
-flutter pub get
+---
