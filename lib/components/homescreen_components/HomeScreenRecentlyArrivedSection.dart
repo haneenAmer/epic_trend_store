@@ -22,7 +22,7 @@ SizedBox homeScreenRecentlyArrivedSection() {
             itemBuilder: (BuildContext context, int index) {
               return Container(
                 margin: const EdgeInsets.all(5),
-                height: 400,
+              height: 400,
                 width: 240,
                 decoration: const BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(10)),
