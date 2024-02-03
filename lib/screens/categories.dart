@@ -19,24 +19,19 @@ class CategoriesScreen extends StatelessWidget {
     'assets/images/bag1.png',
     'assets/images/bag1.png',
   ];
-  
-
-  
 
   @override
   Widget build(BuildContext context) {
-
     final List<String> categoriesSectionsNames = [
-     S.of(context).bags_section,
-     S.of(context).shoes_section,
-     S.of(context).perfums_section,
-   
-  ];
-  final List<String> Categoirieshint = [
-    S.of(context).bags,
-     S.of(context).shoes,
-     S.of(context).perfumes,
-  ];
+      S.of(context).bags_section,
+      S.of(context).shoes_section,
+      S.of(context).perfums_section,
+    ];
+    final List<String> Categoirieshint = [
+      S.of(context).bags,
+      S.of(context).shoes,
+      S.of(context).perfumes,
+    ];
     double screenHeight = MediaQuery.of(context).size.height;
     double screenWidth = MediaQuery.of(context).size.width;
 
@@ -72,7 +67,7 @@ class CategoriesScreen extends StatelessWidget {
                           style: headerTextStyle,
                         ),
                         Text(
-             '${ S.of(context).categories_sections_body}${Categoirieshint[index]}',
+                          '${S.of(context).categories_sections_body}${Categoirieshint[index]}',
                           style: smallTextStyle(Colors.black),
                         ),
                         TextButton(
@@ -129,7 +124,10 @@ GestureDetector pressHereButtonCategories(BuildContext context, int index) {
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
-        Text('اضغط هنا', style: smallTextStyle(Colors.white),),
+        Text(
+          'اضغط هنا',
+          style: smallTextStyle(Colors.white),
+        ),
         const Icon(
           Icons.arrow_forward,
           color: AppColors.mainWhite,
