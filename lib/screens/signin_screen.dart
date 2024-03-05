@@ -180,8 +180,8 @@ class _SigninScreenState extends State<SigninScreen> {
     }
   }
 
-  bool isPasswordVisible = true;
-  bool isconfirmPasswordVisible = true;
+    bool isPasswordVisible = true;
+    bool isconfirmPasswordVisible = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
